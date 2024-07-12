@@ -208,7 +208,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [Pokemon Terminal](https://gitlab.com/phoneybadger/pokemon-colorscripts)
 * [Spicetify](https://spicetify.app/docs/getting-started)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [btop++](https://github.com/aristocratos/btop)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
