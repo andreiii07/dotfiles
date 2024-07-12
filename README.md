@@ -30,23 +30,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/diana7eater/dotfiles">
+    <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/archlinux-512.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">My Arch Linux + KDE Plasma dotfiles</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    An unorganised repository of some conf files I use
   </p>
 </div>
 
@@ -57,7 +48,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Screenshots</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -74,7 +65,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="Link-uri">Acknowledgments</a></li>
+    <li><a href="#linkuri">Link-uri</a></li>
   </ol>
 </details>
 
@@ -201,8 +192,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Link-uri
+<!-- Link-uri -->
+## Linkuri
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
