@@ -1,0 +1,24 @@
+2024-08-19 11:08:35.508 [info] Extension host with pid 40020 started
+2024-08-19 11:08:35.592 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-19 11:08:35.599 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-19 11:08:35.653 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-19 11:08:35.738 [info] Eager extensions activated
+2024-08-19 11:08:35.742 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:08:35.744 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:08:43.012 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-19 11:08:55.407 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:09:09.461 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-19 11:09:09.469 [info] Extension host with pid 40020 exiting with code 0
+2024-08-19 11:09:10.043 [info] Extension host with pid 40159 started
+2024-08-19 11:09:10.043 [info] Skipping acquiring lock for /home/andreiii/.config/Code/User/workspaceStorage/fa0dae6cff765020053ade392e35df0b.
+2024-08-19 11:09:10.111 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-19 11:09:10.131 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-19 11:09:10.152 [info] Eager extensions activated
+2024-08-19 11:09:10.169 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:09:10.171 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:09:10.176 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:09:11.692 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-08-19 11:09:12.638 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-08-19 11:09:12.676 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-19 11:10:10.212 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-19 11:10:10.227 [info] Extension host with pid 40159 exiting with code 0

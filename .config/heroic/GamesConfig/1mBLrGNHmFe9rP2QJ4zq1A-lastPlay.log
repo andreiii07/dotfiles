@@ -1,0 +1,82 @@
+Launching "House Party" (sideload)
+Native? No
+Installed in: /home/andreiii/Downloads/House Party
+
+System Info:
+CPU: 8x 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Memory: 16.45 GB (used: 5.33 GB)
+GPUs:
+  GPU 0:
+    Name: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics]
+    IDs: D=9a49 V=8086 SD=15cc SV=1043
+    Driver: i915
+OS: Arch Linux 6.10.6-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.1 Emeth
+  Legendary: 0.20.35 Lowlife (Heroic)
+  gogdl: 1.1.1
+  comet: comet 0.1.2
+
+  Nile: 1.1.1 Will A. Zeppeli
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallDxvkNvapi": false,
+	"autoInstallVkd3d": true,
+	"preferSystemLibs": false,
+	"enableEsync": true,
+	"enableMsync": false,
+	"enableFsync": true,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"showFps": false,
+	"useGameMode": false,
+	"battlEyeRuntime": true,
+	"eacRuntime": true,
+	"language": "",
+	"beforeLaunchScriptPath": "",
+	"afterLaunchScriptPath": "",
+	"wineVersion": {
+		"bin": "/home/andreiii/.config/heroic/tools/proton/Proton-GE-latest/proton",
+		"name": "Proton - Proton-GE-latest",
+		"type": "proton"
+	},
+	"winePrefix": "/home/andreiii/Games/Heroic/Prefixes/default/House Party",
+	"wineCrossoverBottle": ""
+}
+
+Game launched at: Fri Aug 30 2024 16:21:14 GMT+0300 (Eastern European Summer Time)
+
+Winetricks packages: 
+
+[34mProtonFixes[10918] INFO: Running protonfixes[0m
+[34mProtonFixes[10918] INFO: Running checks[0m
+[34mProtonFixes[10918] INFO: All checks successful[0m
+[34mProtonFixes[10918] INFO: Using global defaults for UNKNOWN (0)[0m
+[34mProtonFixes[10918] INFO: No global protonfix found for UNKNOWN (0)[0m
+wine: using kernel write watches, use_kernel_writewatch 1.
+fsync: up and running.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
+[S_API FAIL] SteamAPI_Init() failed
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+============= End of log =============

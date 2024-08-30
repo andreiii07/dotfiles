@@ -1,0 +1,31 @@
+{
+  "tAhV7r6wRURYCSkbFcAjA9": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": true,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "/home/andreiii/.config/heroic/tools/proton/Proton-GE-latest/proton",
+      "name": "Proton - Proton-GE-latest",
+      "type": "proton"
+    },
+    "winePrefix": "/home/andreiii/Games/Heroic/Prefixes/default/Fifa 14",
+    "wineCrossoverBottle": "",
+    "enableDXVKFpsLimit": true
+  },
+  "version": "v0",
+  "explicit": true
+}

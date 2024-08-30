@@ -1,0 +1,12 @@
+2024-08-19 11:11:50.692 [info] Extension host with pid 44124 started
+2024-08-19 11:11:50.797 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-19 11:11:50.802 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-08-19 11:11:51.067 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-19 11:11:51.071 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-19 11:11:51.092 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-19 11:11:51.122 [info] Eager extensions activated
+2024-08-19 11:11:51.138 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:11:51.139 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:11:51.143 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 11:11:56.416 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-19 11:11:56.425 [info] Extension host with pid 44124 exiting with code 0

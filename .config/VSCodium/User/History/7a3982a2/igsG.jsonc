@@ -1,0 +1,295 @@
+{
+  "hyprland/window": {
+    "format": "󰣆 {title}",
+    "max-length": 80,
+    "separate-outputs": false,
+    "rewrite": {
+      "^.*( — LibreWolf|LibreWolf)$": "󰈹 LibreWolf",
+      "^.*v( .*|$)": " Neovim",
+      "^.*~$": "󰄛 Kitty",
+      "(.*) ": " Empty"
+    },
+  },
+  "group/info": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "transition-left-to-right": false,
+    },
+    "modules": ["custom/arrow-right", "cpu", "memory", "disk", "custom/updates"],
+  },
+  "custom/arrow-right": {
+    "format": "󰁙",
+    "tooltip": false,
+  },
+  "cpu": {
+    "format": "󰘚 {usage}󱉸",
+  },
+  "memory": {
+    "format": " {:2}󱉸",
+  },
+  "disk": {
+    "interval": 600,
+    "format": "󰆼 {percentage_used}󱉸",
+    "path": "/",
+  },
+  "custom/updates": {
+    "format": "󱧕 {}",
+    "tooltip": true,
+    "interval": 43200, // 12 hours
+    "exec": "~/.config/waybar/scripts/check_updates.sh",
+    "return-type": "json",
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "all-outputs": true,
+    "format-icons": {
+      "1": "",
+      "2": "󰖟",
+      "3": "󰅩",
+      "4": "󰞶",
+      "5": "",
+      "6": "󰓇",
+      "7": "",
+      "8": "󰕧",
+      "9": "",
+      "10": "󰙯",
+    },
+  },
+  "group/control-center": {
+    "orientation": "inherit",
+    "modules": ["hyprland/language", "group/audio", "group/connection"],
+  },
+  "hyprland/language": {
+    "format": "{}",
+    "format-en": "🇺🇸",
+    "format-ru": "ru",
+    "keyboard-name": "kingston-hyperx-alloy-fps-pro-mechanical-gaming-keyboard-1",
+    // "keyboard-name":"at-translated-set-2-keyboard",
+    "on-click": "hyprctl switchxkblayout kingston-hyperx-alloy-fps-pro-mechanical-gaming-keyboard-1 next",
+  },
+  "group/audio": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "transition-left-to-right": false,
+    },
+    "modules": [
+      "pulseaudio",
+      "pulseaudio#mic"
+      // "pulseaudio/slider"
+    ]
+  },
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-bluetooth": "{icon}",
+    "tooltip": false,
+    // "tooltip-format": "{volume}% {icon} | {desc}",
+    "format-muted": "󰖁",
+    "format-icons": {
+      "headphones": "󰋌",
+      "handsfree": "󰋌",
+      "headset": "󰋌",
+      "phone": "",
+      "portable": "",
+      "car": " ",
+      "default": ["󰕿", "󰖀", "󰕾"],
+    },
+    "on-click": "changevolume mute",
+    "on-click-middle": "pavucontrol",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "smooth-scrolling-threshold": 1,
+  },
+  "pulseaudio#mic": {
+    "format": "{format_source}",
+    "format-source": "",
+    "format-source-muted": "",
+    "tooltip": false,
+    // "tooltip-format": "{volume}% {format_source} ",
+    "on-click": "pactl set-source-mute 0 toggle",
+    "on-scroll-down": "pactl set-source-volume 0 -1%",
+    "on-scroll-up": "pactl set-source-volume 0 +1%",
+  },
+  "pulseaudio/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal",
+  },
+  "group/connection": {
+    "orientation": "inherit",
+    "modules": ["group/network", "group/bluetooth"],
+  },
+  "group/network": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "transition-left-to-right": true,
+    },
+    "modules": ["network", "network#speed"],
+  },
+  "group/bluetooth": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "transition-left-to-right": true,
+    },
+    "modules": ["bluetooth", "bluetooth#status"],
+  },
+  "network": {
+    "format": "{icon}",
+    "format-icons": {
+      "wifi": ["󰤨"],
+      "ethernet": ["󰈁"],
+      "disconnected": [""],
+    },
+    "format-wifi": "󰤨",
+    "format-ethernet": "󰈁",
+    "format-disconnected": "󰖪",
+    "format-linked": "󰈁",
+    "tooltip": false,
+    "on-click": "pgrep -x rofi &>/dev/null && notify-send rofi || networkmanager_dmenu",
+  },
+  "network#speed": {
+    "format": " {bandwidthDownBits} ",
+    "interval": 5,
+    "tooltip-format": "{ipaddr}",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)   \n{ipaddr} | {frequency} MHz{icon} ",
+    "tooltip-format-ethernet": "{ifname} 󰈀 \n{ipaddr} | {frequency} MHz{icon} ",
+    "tooltip-format-disconnected": "Not Connected to any type of Network",
+    "tooltip": true,
+    "on-click": "pgrep -x rofi &>/dev/null && notify-send rofi || networkmanager_dmenu",
+  },
+  "bluetooth": {
+    "format-on": "",
+    "format-off": "󰂲",
+    "format-disabled": "",
+    "format-connected": "",
+    "tooltip": false,
+    // "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+    // "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+    // "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    // "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+    "on-click": "overskride",
+  },
+  "bluetooth#status": {
+    "format-on": "",
+    "format-off": "",
+    "format-disabled": "",
+    "format-connected": "<b>{num_connections}</b>",
+    "format-connected-battery": "<small><b>{device_battery_percentage}%</b></small>",
+    "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+    "on-click": "rofi-bluetooth -config ~/.config/rofi/menu.d/network.rasi -i",
+  },
+  "group/hub": {
+    "orientation": "inherit",
+    "modules": ["group/utils", "clock"],
+  },
+  "group/utils": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "transition-left-to-right": true,
+    },
+    "modules": ["custom/arrow-left", "custom/notifications", "custom/weather", "custom/theme-switcher"],
+  },
+  "custom/arrow-left": {
+    "format": "󰁒",
+    "tooltip": false,
+  },
+  "custom/notifications": {
+    "tooltip": false,
+    "format": "{icon} {}",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂚",
+      "dnd-notification": "󰂛",
+      "dnd-none": "󰂛",
+      "inhibited-notification": "󰂚",
+      "inhibited-none": "󰂚",
+      "dnd-inhibited-notification": "󰂛",
+      "dnd-inhibited-none": "󰂛"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+  "custom/weather": {
+    "format": "{}",
+    "tooltip": false,
+    "interval": 3600,
+    "exec": "wttrbar --custom-indicator '{ICON}{temp_C}'",
+    "return-type": "json",
+  },
+  "custom/theme-switcher": {
+    "format": "󰏘",
+    "tooltip": false,
+    "on-click": "~/.config/hypr/scripts/toggle_theme.sh",
+  },
+  "clock": {
+    "format": "{:%H:%M}",
+    "format-alt": "{:%A %d.%m}",
+    "tooltip-format": "<tt><big>{calendar}</big></tt>",
+    "calendar": {
+      "mode": "month",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>",
+      },
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down",
+    },
+  },
+  "group/power": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "transition-left-to-right": false,
+    },
+    "modules": ["battery", "power-profiles-daemon"],
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}",
+    "format-charging": "<b>{icon} </b>",
+    "format-full": "<span color='#82A55F'><b>{icon}</b></span>",
+    "format-icons": [
+      "󰁻",
+      "󰁼",
+      "󰁾",
+      "󰂀",
+      "󰂂",
+      "󰁹"
+    ],
+    "tooltip-format": "{timeTo} {capacity} % | {power} W"
+  },
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "<span color='#B37F34'><small></small></span>",
+      "balanced": "<span><small> </small></span>",
+      "power-saver": "<span color='#a6e3a1'><small></small></span>"
+    }
+  },
+}

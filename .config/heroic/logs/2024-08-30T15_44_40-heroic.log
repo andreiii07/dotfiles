@@ -1,0 +1,211 @@
+(18:44:40) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+(18:44:40) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+(18:44:40) INFO:    [Connection]:       Connectivity: check-online
+(18:44:40) INFO:    [Connection]:       Pinging external endpoints
+(18:44:40) INFO:    [Gog]:              Checking for existing gog manifests
+(18:44:41) WARNING: [Backend]:          Protocol already registered.
+(18:44:41) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/andreiii/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(18:44:41) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/andreiii/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/andreiii/.config/heroic/gog_store/auth.json --version
+(18:44:41) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/andreiii/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(18:44:41) INFO:    [Connection]:       Connectivity: online
+(18:44:41) INFO:    [Backend]:          User Not Found, removing it from Store
+(18:44:41) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(18:44:41) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/andreiii/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/andreiii/.config/heroic/gog_store/auth.json auth
+(18:44:41) INFO:    [Backend]:          
+System Information:
+CPU: 8x 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Memory: 16.45 GB (used: 3.35 GB)
+GPUs:
+  GPU 0:
+    Name: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics]
+    IDs: D=9a49 V=8086 SD=15cc SV=1043
+    Driver: i915
+OS: Arch Linux 6.10.6-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.1 Emeth
+  Legendary: 0.20.35 Lowlife (Heroic)
+  gogdl: 1.1.1
+  comet: comet 0.1.2
+
+  Nile: 1.1.1 Will A. Zeppeli
+
+(18:44:41) INFO:    [Backend]:          Frontend Ready
+(18:44:41) INFO:    [Backend]:          Checking for new Heroic Updates
+(18:44:41) INFO:    [Backend]:          Checking for current version changelog
+(18:44:42) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(18:44:43) INFO:    [Winetricks]:       Downloading Winetricks
+(18:44:45) INFO:    [WineDownloader]:   Updating wine versions info
+(18:44:45) INFO:    [WineDownloader]:   Fetching upstream information...
+(18:44:46) INFO:    [Backend]:          Starting the Download Queue
+(18:44:47) ERROR:   [Frontend]:         Error: Request failed with status code 404
+(18:44:47) INFO:    [WineDownloader]:   wine versions updated
+(18:44:58) ERROR:   [Frontend]:         Error: Request failed with status code 404
+(18:45:07) INFO:    [Backend]:          Writing config for 1hC5FRWgaXw8sJYkuSGCB1
+(18:45:07) INFO:    [Backend]:          Changed config: winePrefix from /home/andreiii/Games/Heroic/Prefixes/default to /home/andreiii/Games/Heroic/Prefixes/default/Titleaaaaaaaaa
+(18:45:07) WARNING: [Backend]:          Required prefix files are missing, running `verifyWinePrefix` to create prefix
+(18:45:07) INFO:    [Backend]:          Checking if wine version exists: Default Wine - Not Found
+(18:45:07) INFO:    [Backend]:          Checking if wine version exists: Default Wine - Not Found
+(18:45:09) INFO:    [Backend]:          Adding shortcuts for Titleaaaaaaaaa
+(18:45:09) ERROR:   [DownloadManager]:  Downloader: Failed to get headers for file:///opt/Heroic/resources/app.asar/build/assets/heroic_card-mjvSE_Ga.jpg. 
+Error: AggregateError
+(18:45:09) INFO:    [Backend]:          Writing config for 1hC5FRWgaXw8sJYkuSGCB1
+(18:45:09) INFO:    [Backend]:          Changed config: wineCrossoverBottle from undefined to 
+(18:45:09) INFO:    [Frontend]:         Refreshing sideload Library
+(18:45:09) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(18:45:09) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(18:45:10) INFO:    [Backend]:          Launching Titleaaaaaaaaa (1hC5FRWgaXw8sJYkuSGCB1)
+(18:45:10) INFO:    [Backend]:          Preventing display from sleep
+(18:45:10) INFO:    [Backend]:          Checking if wine version exists: Default Wine - Not Found
+(18:45:10) ERROR:   [Backend]:          Wine version Default Wine - Not Found is not valid, trying another one.
+(18:45:10) INFO:    [Backend]:          Checking if wine version exists: Default Wine - Not Found
+(18:45:10) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:45:10) INFO:    [Backend]:          Preventing machine to sleep
+(18:45:11) INFO:    [Backend]:          Changing wine version to Wine - Wine-GE-latest
+(18:45:11) INFO:    [Backend]:          1hC5FRWgaXw8sJYkuSGCB1: Setting wineVersion to {"bin":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/bin/wine","name":"Wine - Wine-GE-latest","type":"wine","lib":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/lib64","lib32":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/lib","wineserver":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"}
+(18:45:11) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:45:11) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:45:11) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:45:11) DEBUG:   [Backend]:          Running Wine command: wineboot --init
+(18:45:16) INFO:    [Backend]:          Launching Fifa 14 (tAhV7r6wRURYCSkbFcAjA9)
+(18:45:16) INFO:    [Backend]:          Preventing display from sleep
+(18:45:16) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:16) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:16) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:16) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:16) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(18:45:18) INFO:    [Backend]:          launching non-native sideloaded: /home/andreiii/Downloads/FIFA14MW/Game/fifa14-3dm.exe 
+(18:45:18) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:18) INFO:    [Backend]:          Preventing display to sleep
+(18:45:18) DEBUG:   [Backend]:          Running Wine command: waitforexitandrun /home/andreiii/Downloads/FIFA14MW/Game/fifa14-3dm.exe
+(18:45:18) DEBUG:   [Backend]:          Logging to file "/home/andreiii/.config/heroic/GamesConfig/tAhV7r6wRURYCSkbFcAjA9-lastPlay.log"
+(18:45:22) ERROR:   [Backend]:          Aborting not possible. Could not find a matching abort controller for tAhV7r6wRURYCSkbFcAjA9
+(18:45:22) INFO:    [Backend]:          Trying to kill fifa14-3dm.exe
+(18:45:22) INFO:    [Backend]:          Killed fifa14-3dm.exe
+(18:45:22) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:22) DEBUG:   [Backend]:          Running Wine command: run wineboot -k
+(18:45:22) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(18:45:22) INFO:    [Frontend]:         Refreshing sideload Library
+(18:45:22) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(18:45:23) INFO:    [Backend]:          Launching Fifa 14 (tAhV7r6wRURYCSkbFcAjA9)
+(18:45:23) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:23) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:23) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:23) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:23) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(18:45:24) INFO:    [Backend]:          launching non-native sideloaded: /home/andreiii/Downloads/FIFA14MW/Game/fifa14-3dm.exe 
+(18:45:24) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:24) DEBUG:   [Backend]:          Running Wine command: waitforexitandrun /home/andreiii/Downloads/FIFA14MW/Game/fifa14-3dm.exe
+(18:45:24) DEBUG:   [Backend]:          Logging to file "/home/andreiii/.config/heroic/GamesConfig/tAhV7r6wRURYCSkbFcAjA9-lastPlay.log"
+(18:45:31) ERROR:   [Backend]:          Aborting not possible. Could not find a matching abort controller for tAhV7r6wRURYCSkbFcAjA9
+(18:45:31) INFO:    [Backend]:          Trying to kill fifa14-3dm.exe
+(18:45:31) INFO:    [Backend]:          Killed fifa14-3dm.exe
+(18:45:31) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton-GE-latest
+(18:45:31) DEBUG:   [Backend]:          Running Wine command: run wineboot -k
+(18:45:31) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(18:45:31) INFO:    [Frontend]:         Refreshing sideload Library
+(18:45:31) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(18:46:29) INFO:    [Backend]:          Adding shortcuts for Fifa 1444
+(18:46:29) INFO:    [Backend]:          Writing config for 9uzexp9hrgq8LHy2GibzPa
+(18:46:29) INFO:    [Backend]:          Changed config: winePrefix from /home/andreiii/Games/Heroic/Prefixes/default to /home/andreiii/Games/Heroic/Prefixes/default/Fifa 1444
+(18:46:29) INFO:    [Backend]:          Changed config: wineCrossoverBottle from undefined to 
+(18:46:29) INFO:    [Frontend]:         Refreshing sideload Library
+(18:46:29) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(18:46:29) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(18:46:30) INFO:    [DownloadManager]:  Downloader: Finished downloading https://cdn2.steamgriddb.com/grid/482c20c6e319f54dd5ea3f0387a313e1.png
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting ExtraGameInfo data for Fifa 1444
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting PCGamingWiki data for Fifa 1444
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting HowLongToBeat data for Fifa 1444
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting GamesDB data for Fifa 1444
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting ExtraGameInfo data for Fifa 1444
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting PCGamingWiki data for Fifa 1444
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting HowLongToBeat data for Fifa 1444
+(18:46:31) INFO:    [ExtraGameInfo]:    Getting GamesDB data for Fifa 1444
+(18:46:31) WARNING: [Backend]:          getExtraInfo not implemented on Sideload Game Manager. called for appName = 9uzexp9hrgq8LHy2GibzPa
+(18:46:31) ERROR:   [ExtraGameInfo]:    Got AxiosError when sending HowLongToBeat request for Fifa 1444: {
+  "message": "Request failed with status code 404",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 404\n    at createError (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/opt/Heroic/resources/app.asar/node_modules/axios/lib/adapters/http.js:322:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "User-Agent": "HeroicGamesLauncher/2.15.1",
+      "Referer": "https://howlongtobeat.com/",
+      "Content-Length": 346
+    },
+    "method": "post",
+    "url": "https://www.howlongtobeat.com/api/search",
+    "data": "{\"searchType\":\"games\",\"searchTerms\":[\"Fifa\",\"1444\"],\"searchPage\":1,\"size\":20,\"searchOptions\":{\"games\":{\"userId\":0,\"platform\":\"\",\"sortCategory\":\"popular\",\"rangeCategory\":\"main\",\"rangeTime\":{\"min\":0,\"max\":0},\"gameplay\":{\"perspective\":\"\",\"flow\":\"\",\"genre\":\"\"},\"modifier\":\"\"},\"users\":{\"sortCategory\":\"postcount\"},\"filter\":\"\",\"sort\":0,\"randomizer\":0}}"
+  },
+  "status": 404
+}
+(18:46:31) DEBUG:   [Backend]:          No SteamID, not getting ProtonDB info
+(18:46:31) DEBUG:   [Backend]:          No SteamID, not getting Stem Deck info
+(18:46:31) ERROR:   [ExtraGameInfo]:    Got AxiosError when sending HowLongToBeat request for Fifa 1444: {
+  "message": "Request failed with status code 404",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 404\n    at createError (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/opt/Heroic/resources/app.asar/node_modules/axios/lib/adapters/http.js:322:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "User-Agent": "HeroicGamesLauncher/2.15.1",
+      "Referer": "https://howlongtobeat.com/",
+      "Content-Length": 346
+    },
+    "method": "post",
+    "url": "https://www.howlongtobeat.com/api/search",
+    "data": "{\"searchType\":\"games\",\"searchTerms\":[\"Fifa\",\"1444\"],\"searchPage\":1,\"size\":20,\"searchOptions\":{\"games\":{\"userId\":0,\"platform\":\"\",\"sortCategory\":\"popular\",\"rangeCategory\":\"main\",\"rangeTime\":{\"min\":0,\"max\":0},\"gameplay\":{\"perspective\":\"\",\"flow\":\"\",\"genre\":\"\"},\"modifier\":\"\"},\"users\":{\"sortCategory\":\"postcount\"},\"filter\":\"\",\"sort\":0,\"randomizer\":0}}"
+  },
+  "status": 404
+}
+(18:46:31) DEBUG:   [Backend]:          No SteamID, not getting ProtonDB info
+(18:46:31) DEBUG:   [Backend]:          No SteamID, not getting Stem Deck info
+(18:46:32) INFO:    [Backend]:          Launching Fifa 1444 (9uzexp9hrgq8LHy2GibzPa)
+(18:46:32) INFO:    [Backend]:          Checking if wine version exists: Default Wine - Not Found
+(18:46:32) ERROR:   [Backend]:          Wine version Default Wine - Not Found is not valid, trying another one.
+(18:46:32) INFO:    [Backend]:          Checking if wine version exists: Default Wine - Not Found
+(18:46:32) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:46:32) WARNING: [Backend]:          getExtraInfo not implemented on Sideload Game Manager. called for appName = 9uzexp9hrgq8LHy2GibzPa
+(18:46:34) INFO:    [Backend]:          Changing wine version to Wine - Wine-GE-latest
+(18:46:34) INFO:    [Backend]:          9uzexp9hrgq8LHy2GibzPa: Setting wineVersion to {"bin":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/bin/wine","name":"Wine - Wine-GE-latest","type":"wine","lib":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/lib64","lib32":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/lib","wineserver":"/home/andreiii/.config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"}
+(18:46:34) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:46:34) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:46:34) INFO:    [Backend]:          Checking if wine version exists: Wine - Wine-GE-latest
+(18:46:34) DEBUG:   [Backend]:          Running Wine command: wineboot --init

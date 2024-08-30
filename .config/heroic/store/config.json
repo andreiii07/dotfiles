@@ -1,0 +1,35 @@
+{
+	"general-logs": {
+		"currentLogFile": "/home/andreiii/.config/heroic/logs/2024-08-30T15_48_39-heroic.log",
+		"lastLogFile": "/home/andreiii/.config/heroic/logs/2024-08-30T15_44_40-heroic.log",
+		"legendaryLogFile": "/home/andreiii/.config/heroic/logs/2024-08-30T15_48_39-legendary.log",
+		"gogdlLogFile": "/home/andreiii/.config/heroic/logs/2024-08-30T15_48_39-gogdl.log",
+		"nileLogFile": "/home/andreiii/.config/heroic/logs/2024-08-30T15_48_39-nile.log"
+	},
+	"userHome": "/home/andreiii",
+	"language": "en",
+	"games": {
+		"recent": [
+			{
+				"appName": "tAhV7r6wRURYCSkbFcAjA9",
+				"title": "Fifa 14"
+			},
+			{
+				"appName": "1mBLrGNHmFe9rP2QJ4zq1A",
+				"title": "House Party"
+			},
+			{
+				"appName": "cmcYkshsZH3VERwsRbB5L7",
+				"title": "Marvels Spider-Man Miles Morales "
+			}
+		]
+	},
+	"window-props": {
+		"x": 0,
+		"y": 0,
+		"width": 1900,
+		"height": 1010,
+		"maximized": true
+	},
+	"theme": "dracula"
+}

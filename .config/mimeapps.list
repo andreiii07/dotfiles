@@ -1,0 +1,14 @@
+[Added Associations]
+application/x-shellscript=codium-wayland.desktop;
+application/toml=codium.desktop;
+application/schema+json=codium.desktop;
+text/css=codium.desktop;
+text/plain=codium.desktop;
+inode/symlink=codium.desktop;
+text/x-csrc=codium-wayland.desktop;codium.desktop;
+image/png=feh.desktop;gimp.desktop;org.gnome.eog.desktop;
+application/octet-stream=vim.desktop;codium.desktop;
+
+[Default Applications]
+inode/symlink=codium.desktop
+application/octet-stream=codium.desktop

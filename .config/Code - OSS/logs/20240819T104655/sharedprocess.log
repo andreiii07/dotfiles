@@ -1,0 +1,20 @@
+2024-08-19 10:47:56.971 [info] Uninstalling extension from the profile: circlecodesolution.ccs-flutter-color@1.2.5 vscode-userdata:/home/andreiii/.vscode-oss/extensions/extensions.json
+2024-08-19 10:47:56.989 [info] Marked extension as uninstalled circlecodesolution.ccs-flutter-color-1.2.5-universal
+2024-08-19 10:47:57.064 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/andreiii/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/andreiii/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-19 10:47:57.204 [info] Successfully uninstalled extension from the profile circlecodesolution.ccs-flutter-color@1.2.5 vscode-userdata:/home/andreiii/.vscode-oss/extensions/extensions.json
+2024-08-19 10:48:03.627 [info] Uninstalling extension from the profile: dlasagno.wal-theme@1.1.2 vscode-userdata:/home/andreiii/.vscode-oss/extensions/extensions.json
+2024-08-19 10:48:03.638 [info] Marked extension as uninstalled dlasagno.wal-theme-1.1.2-universal
+2024-08-19 10:48:03.709 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/andreiii/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/andreiii/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-19 10:48:03.773 [info] Successfully uninstalled extension from the profile dlasagno.wal-theme@1.1.2 vscode-userdata:/home/andreiii/.vscode-oss/extensions/extensions.json

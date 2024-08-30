@@ -1,0 +1,67 @@
+(18:48:40) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+(18:48:40) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+(18:48:40) INFO:    [Connection]:       Connectivity: check-online
+(18:48:40) INFO:    [Connection]:       Pinging external endpoints
+(18:48:40) INFO:    [Gog]:              Checking for existing gog manifests
+(18:48:40) WARNING: [Backend]:          Protocol already registered.
+(18:48:40) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/andreiii/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(18:48:40) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/andreiii/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/andreiii/.config/heroic/gog_store/auth.json --version
+(18:48:40) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/andreiii/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(18:48:40) INFO:    [Connection]:       Connectivity: online
+(18:48:40) INFO:    [Backend]:          User Not Found, removing it from Store
+(18:48:40) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(18:48:40) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/andreiii/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/andreiii/.config/heroic/gog_store/auth.json auth
+(18:48:40) INFO:    [Backend]:          
+System Information:
+CPU: 8x 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Memory: 16.45 GB (used: 1.46 GB)
+GPUs:
+  GPU 0:
+    Name: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics]
+    IDs: D=9a49 V=8086 SD=15cc SV=1043
+    Driver: i915
+OS: Arch Linux 6.10.6-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.1 Emeth
+  Legendary: 0.20.35 Lowlife (Heroic)
+  gogdl: 1.1.1
+  comet: comet 0.1.2
+
+  Nile: 1.1.1 Will A. Zeppeli
+
+(18:48:40) INFO:    [Backend]:          Frontend Ready
+(18:48:40) INFO:    [Backend]:          Checking for new Heroic Updates
+(18:48:40) INFO:    [Backend]:          Checking for current version changelog
+(18:48:40) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(18:48:42) INFO:    [Winetricks]:       Downloading Winetricks
+(18:48:45) INFO:    [WineDownloader]:   Updating wine versions info
+(18:48:45) INFO:    [WineDownloader]:   Fetching upstream information...
+(18:48:45) INFO:    [Backend]:          Starting the Download Queue
+(18:48:47) INFO:    [WineDownloader]:   wine versions updated
+(18:48:49) INFO:    [Backend]:          Removing prefix /home/andreiii/Games/Heroic/Prefixes/default/Fifa 1444
+(18:48:49) INFO:    [Backend]:          finished uninstalling
+(18:48:49) INFO:    [Backend]:          Desktop shortcut removed
+(18:48:49) INFO:    [Backend]:          Applications shortcut removed
+(18:48:49) INFO:    [Backend]:          Preventing machine to sleep
+(18:48:49) INFO:    [Frontend]:         Refreshing sideload Library
+(18:48:49) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(18:48:54) INFO:    [Backend]:          Removing prefix /home/andreiii/Games/Heroic/Prefixes/default/Titleaaaaaaaaa
+(18:48:54) INFO:    [Backend]:          finished uninstalling
+(18:48:54) INFO:    [Backend]:          Desktop shortcut removed
+(18:48:54) INFO:    [Backend]:          Applications shortcut removed
+(18:48:54) INFO:    [Backend]:          Preventing machine to sleep
+(18:48:54) INFO:    [Frontend]:         Refreshing sideload Library
+(18:48:54) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(18:48:54) INFO:    [Backend]:          Stopping Power Saver Blocker
+(18:48:58) INFO:    [Backend]:          Removing prefix /home/andreiii/Games/Heroic/Prefixes/default/Fifa 14
+(18:48:58) INFO:    [Backend]:          finished uninstalling
+(18:48:58) INFO:    [Backend]:          Desktop shortcut removed
+(18:48:58) INFO:    [Backend]:          Applications shortcut removed
+(18:48:58) INFO:    [Backend]:          Preventing machine to sleep
+(18:48:58) INFO:    [Frontend]:         Refreshing sideload Library
+(18:48:58) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(18:48:58) INFO:    [Backend]:          Stopping Power Saver Blocker

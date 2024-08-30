@@ -1,0 +1,102 @@
+2024-08-21 11:55:02.093 [info] [main] Log level: Info
+2024-08-21 11:55:02.093 [info] [main] Validating found git in: "git"
+2024-08-21 11:55:02.093 [info] [main] Using git "2.46.0" from "git"
+2024-08-21 11:55:02.093 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-21 11:55:02.093 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-21 11:55:02.093 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.097 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-21 11:55:02.097 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.100 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-21 11:55:02.100 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.102 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-21 11:55:02.105 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2024-08-21 11:55:02.114 [info] [Model][openRepository] Opened repository: /home/andreiii/.mozilla/firefox/wihlf1pf.default-release/chrome
+2024-08-21 11:55:02.122 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-21 11:55:02.122 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.122 [info] > git config --get commit.template [4ms]
+2024-08-21 11:55:02.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/proton-style refs/remotes/proton-style [1ms]
+2024-08-21 11:55:02.129 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-21 11:55:02.129 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.137 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/andreiii/.mozilla/firefox/wihlf1pf.default-release/chrome/.git/refs/remotes/origin/proton-style'
+2024-08-21 11:55:02.143 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-21 11:55:02.143 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.143 [info] > git rev-parse refs/remotes/origin/proton-style [6ms]
+2024-08-21 11:55:02.148 [info] > git status -z -uall [3ms]
+2024-08-21 11:55:02.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/proton-style refs/remotes/proton-style [6ms]
+2024-08-21 11:55:02.160 [info] > git rev-parse --show-toplevel [12ms]
+2024-08-21 11:55:02.160 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.163 [info] > git config --get commit.template [5ms]
+2024-08-21 11:55:02.164 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-21 11:55:02.164 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.164 [info] > git config --local branch.proton-style.vscode-merge-base [4ms]
+2024-08-21 11:55:02.164 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-21 11:55:02.194 [info] > git reflog proton-style --grep-reflog=branch: Created from *. [27ms]
+2024-08-21 11:55:02.209 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [13ms]
+2024-08-21 11:55:02.211 [info] > git rev-parse --show-toplevel [20ms]
+2024-08-21 11:55:02.211 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/proton-style refs/remotes/proton-style [22ms]
+2024-08-21 11:55:02.224 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/andreiii/.mozilla/firefox/wihlf1pf.default-release/chrome/.git/refs/remotes/origin/proton-style'
+2024-08-21 11:55:02.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [13ms]
+2024-08-21 11:55:02.228 [info] > git rev-parse refs/remotes/origin/proton-style [4ms]
+2024-08-21 11:55:02.230 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-21 11:55:02.230 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.232 [info] > git config --local branch.proton-style.vscode-merge-base origin/master [5ms]
+2024-08-21 11:55:02.237 [info] > git status -z -uall [7ms] (cancelled)
+2024-08-21 11:55:02.237 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-21 11:55:02.237 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.239 [info] > git config --get commit.template [3ms]
+2024-08-21 11:55:02.240 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-21 11:55:02.240 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/proton-style refs/remotes/proton-style [1ms]
+2024-08-21 11:55:02.245 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/andreiii/.mozilla/firefox/wihlf1pf.default-release/chrome/.git/refs/remotes/origin/proton-style'
+2024-08-21 11:55:02.245 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-21 11:55:02.245 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.247 [info] > git rev-parse refs/remotes/origin/proton-style [2ms]
+2024-08-21 11:55:02.250 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-21 11:55:02.250 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.252 [info] > git status -z -uall [3ms]
+2024-08-21 11:55:02.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/proton-style refs/remotes/proton-style [3ms]
+2024-08-21 11:55:02.260 [info] > git rev-parse --show-toplevel [9ms]
+2024-08-21 11:55:02.260 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.264 [info] > git config --local branch.proton-style.vscode-merge-base [4ms]
+2024-08-21 11:55:02.266 [info] > git merge-base refs/heads/proton-style refs/remotes/origin/proton-style [8ms]
+2024-08-21 11:55:02.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-08-21 11:55:02.269 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-21 11:55:02.269 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.271 [info] > git rev-list --count --left-right refs/heads/proton-style...refs/remotes/origin/proton-style [3ms]
+2024-08-21 11:55:02.273 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-21 11:55:02.273 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.275 [info] > git diff --name-status -z --diff-filter=ADMR 63e3d5682bdfcf2e3fe09d978586df10abf13ea2...refs/remotes/origin/proton-style [2ms]
+2024-08-21 11:55:02.276 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-21 11:55:02.276 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.277 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-21 11:55:02.469 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-21 11:55:02.469 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-21 11:55:02.633 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-21 11:55:03.321 [info] > git config --get commit.template [6ms]
+2024-08-21 11:55:03.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/proton-style refs/remotes/proton-style [2ms]
+2024-08-21 11:55:03.327 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/andreiii/.mozilla/firefox/wihlf1pf.default-release/chrome/.git/refs/remotes/origin/proton-style'
+2024-08-21 11:55:03.329 [info] > git rev-parse refs/remotes/origin/proton-style [2ms]
+2024-08-21 11:55:03.338 [info] > git status -z -uall [5ms]
+2024-08-21 11:55:03.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/proton-style refs/remotes/proton-style [2ms]
+2024-08-21 11:55:03.352 [info] > git config --local branch.proton-style.vscode-merge-base [1ms]
+2024-08-21 11:55:03.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
