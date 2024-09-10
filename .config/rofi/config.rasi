@@ -20,7 +20,7 @@ entry {
 
 /* ---- Listview ---- */
 listview {
-    lines:	7;
+    lines:	5;
 }
 
 /* ---- Mode Switcher ---- */
