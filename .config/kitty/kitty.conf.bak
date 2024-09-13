@@ -6,6 +6,7 @@ bold_italic_font auto
 
 background_opacity 0.5
 confirm_os_window_close 0
+
 # change to x11 or wayland or leave auto
 linux_display_server auto
 
@@ -46,6 +47,6 @@ window_padding_width 4
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Catppuccin-Latte
 include current-theme.conf
 # END_KITTY_THEME

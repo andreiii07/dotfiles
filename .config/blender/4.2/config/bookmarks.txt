@@ -1,7 +1,0 @@
-[Bookmarks]
-[Recent]
-/home/andreiii/Downloads/arch-linux-logo/source/arch/
-/home/andreiii/Downloads/
-/home/andreiii/Downloads/arch-linux-logo/
-/home/andreiii/Documents/blender/
-/home/andreiii/Pictures/
