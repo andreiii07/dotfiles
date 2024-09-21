@@ -40,8 +40,13 @@ rofi.target = '~/.config/rofi/wallust/colors-rofi.rasi'
 waybar.template = 'colors-waybar.css'
 waybar.target = '~/.config/waybar/wallust/colors-waybar.css'
 
-kitty.template = 'colors-kitty.conf'
-kitty.target = '~/.config/kitty/kitty.conf'
+spicetify.template='colors-spicetify.ini'
+spicetify.target='~/.config/spicetify/Themes/Wallust/color.ini'
+
+#kitty.template = 'colors-kitty.conf'
+#kitty.target = '~/.config/kitty/kitty.conf'
+
+#fastfetch.template = 'color
 
 swaync.template = 'colors-swaync.css'
 swaync.target = '~/.config/swaync/wallust/colors-wallust.css'

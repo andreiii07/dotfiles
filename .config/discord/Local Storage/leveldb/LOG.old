@@ -1,6 +1,0 @@
-2024/08/29-20:56:52.826 862 Reusing MANIFEST /home/andreiii/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/08/29-20:56:52.827 862 Recovering log #92
-2024/08/29-20:56:52.827 862 Reusing old log /home/andreiii/.config/discord/Local Storage/leveldb/000092.log 
-2024/08/29-21:25:46.068 862 Level-0 table #96: started
-2024/08/29-21:25:46.121 862 Level-0 table #96: 3260450 bytes OK
-2024/08/29-21:25:46.124 862 Delete type=0 #92

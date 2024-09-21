@@ -33,8 +33,9 @@ fi
 #works fine
 
 # Check the flag before executing further commands
-if [ "$ln_success" = true ]; then
+if [ "$ln_success" = true ]; then\
     echo 'about to execute wallust'
     # execute wallust skipping tty and terminal changes
     wallust run  $wallpaper_path     -s 
+    /home/andreiii/.spicetify/spicetify apply 
 fi
