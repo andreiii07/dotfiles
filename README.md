@@ -76,9 +76,9 @@
 | Power Menu App                     | [wlogout](https://github.com/ArtsyMacaw/wlogout)                                 |
 | WiFi Menu                          | [iwdrofimenu](https://github.com/defname/rofi-iwd-wifi-menu)                     |
 | Bluetooth Manager                  | [Overskride](https://github.com/kaii-lb/overskride)                              |
-| CLI Utility                       | [pokemon-colorscripts](https://github.com/Vomitblood/rustmon)                                 |
+| Terminal Art                       | [pokemon-colorscripts](https://github.com/Vomitblood/rustmon)                                 |
 | Shader Tool                       | [hyprshade](https://github.com/Vomitblood/rustmon)                                 |
-| Terminal Art                       | [rustmon](https://github.com/Vomitblood/rustmon)                                 |
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
